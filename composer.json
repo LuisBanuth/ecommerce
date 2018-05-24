@@ -1,9 +1,9 @@
 {
-    "name": "hcodebr/ecommerce",
+    "name": "LuisBanuth/ecommerce",
     "authors": [
         {
-            "name": "Hcode Treinamentos",
-            "email": "suporte@hcode.com.br"
+            "name": "LuisBanuth",
+            "email": "lhzbanuth@hotmail.com"
         }
     ],
     "require": {
@@ -15,5 +15,12 @@
         "psr-4": {
             "": "vendor\\hcodebr\\php-classes\\src"
         }
-    }
+    },
+	"repositories": [
+	    {
+ 	        "type": "composer",
+  	       "url": "https://packagist.org"
+  	  },
+  	  { "packagist": false }
+    ]
 }
